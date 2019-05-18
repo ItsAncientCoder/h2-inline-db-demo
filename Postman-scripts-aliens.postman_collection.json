@@ -1,0 +1,58 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Postman-scripts-aliens",
+		"_postman_id": "d6b72168-61b6-9ccd-d6d4-5965b70d9001",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "DELETE",
+			"request": {
+				"url": "http://localhost:8080/alien/2/",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST-ADD",
+			"request": {
+				"url": "http://localhost:8080/add",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"bandham\",\n\"place\":\"test\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"url": "http://localhost:8080/alien/2/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,1 @@
+insert into ALIEN (id, name, place) values (1, 'bandham', 'mahal');
